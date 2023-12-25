@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-O Projeto Mudi é uma aplicação Back end construída como parte do curso Spring MVC com Thymeleaf e Bootstrap na escola Alura (https://cursos.alura.com.br). Durante o desenvolvimento, foram utilizadas diversas tecnologias, proporcionando uma experiência prática e abrangente.
+O Projeto Mudi é uma aplicação Back end construída como durante o curso Spring MVC com Thymeleaf e Bootstrap na escola Alura (https://cursos.alura.com.br). Durante o desenvolvimento, foram utilizadas diversas tecnologias, proporcionando uma experiência prática e abrangente.
 
 Mudi é uma aplicação que facilita a realização de pedidos internacionais entre usuários. Seja você um viajante disposto a trazer produtos do exterior ou alguém procurando um item específico de outro país, o Mudi conecta essas pessoas de maneira simples e eficiente.
 
