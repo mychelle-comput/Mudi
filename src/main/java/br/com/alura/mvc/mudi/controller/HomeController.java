@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
+import java.security.Principal;
 import java.util.List;
 
 @Controller
@@ -21,10 +22,9 @@ public class HomeController {
     @Autowired
     private PedidoRepository pedidoRepository;
 
-    //Este método recupera todos os pedidos do banco de dados e os envia a página inicial ("/home").
     @GetMapping
-    public String home(Model model) {
-        List<Pedido> pedidos = pedidoRepository.findAll();
+    public String home(Model model, Principal principal) {
+        List<Pedido> pedidos = pedidoRepository.findAllByUsuario(principal.getName());
         model.addAttribute("pedidos", pedidos);
         return "/home";
     }
