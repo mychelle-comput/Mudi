@@ -3,8 +3,8 @@ package br.com.alura.mvc.mudi.dto;
 
 import br.com.alura.mvc.mudi.model.Pedido;
 import br.com.alura.mvc.mudi.model.StatusPedido;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+import javax.validation.constraints.NotBlank;
 
 @Data
 public class RequisicaoNovoPedido {
